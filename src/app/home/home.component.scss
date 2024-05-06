@@ -1,0 +1,115 @@
+.home-container {
+    display: flex;
+
+    .all-movies {
+        width: 75%;
+        min-height: calc(100vh - 80px);
+        border-right: 1px solid #5dcdf0;
+        padding: 20px, 40px;
+        font-family: "Roboto", sans-serif;
+
+        .top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 5px;
+
+            h4 {
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 18px;
+                margin-left: 30px;
+                margin-top: 10px;
+                border-left: 5px solid #2294a8;
+                padding-left: 5px;
+            }
+
+            .view-all {
+                margin-right: 20px;
+                margin-top: 10px;
+                color: #2294a8;
+                font-size: 14px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+
+        .movies-thumbnail {
+            margin-top: 10px;
+            margin-left: 30px;
+            margin-right: 20px;
+            display: flex;
+            justify-content: space-between;
+
+            .movie {
+                .cover {
+                    img {
+                        border-radius: 5px;
+                    }
+                }
+
+                .detail {
+                    width: 100px;
+
+                    .name {
+                        font-weight: bold;
+                        font-size: 12px;
+                        height: 30px;
+                        margin-top: 3px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.popular-movies {
+    width: 25%;
+    min-height: calc(100vh - 80px);
+    padding: 20px, 40px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+
+    h4 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 10px;
+        border-left: 5px solid #2294a8;
+        padding-left: 5px;
+    }
+
+    .movies {
+        .movie {
+            .detail {
+                margin-bottom: 10px;
+                margin-top: 15px;
+                margin-left: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .name {
+                    font-size: 12px;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+        .view-all{
+            color: #2294a8;
+            text-align: right;
+            margin-top: 15px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+
+}
+
+
+
+

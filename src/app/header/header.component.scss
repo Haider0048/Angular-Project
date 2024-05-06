@@ -1,0 +1,29 @@
+.header-container{
+    width: 100%;
+    height: 60px;
+    background-color: #5dcdf0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'creepster', cursive;
+        letter-spacing: 4px;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+
+    .btn-container{
+        margin-right: 10px;
+        
+    }
+    .btn{
+        font-size: 15px;
+        font-weight: bold;
+        margin-right: 10px;
+        cursor: pointer;
+        background: transparent;
+        color: black;
+    }
+}

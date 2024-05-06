@@ -1,0 +1,54 @@
+[
+    {
+      "id": 17,
+      "name": "The Handmaid's Tale",
+      "cover":"https://ik.imagekit.io/uhdf0ebnb/esp.jpg?tr=w-135,h-185",
+      "rating": 4.5,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 18,
+      "name":"Only murders in the building",
+      "cover": "https://ik.imagekit.io/uhdf0ebnb/esp2.jpg?tr=w-135,h-185",
+      "rating": 4.3,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 19,
+      "name":"Nine perfect stranger",
+      "cover": "https://ik.imagekit.io/uhdf0ebnb/esp3.jpg?tr=w-135,h-185",
+      "rating": 4,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Solar opposites",
+      "cover": "https://ik.imagekit.io/uhdf0ebnb/esp4.jfif?tr=w-135,h-185",
+      "reviews": [
+        {
+          "author": "Albus Dumbledore",
+          "published_on": "2021-10-13 11:27:39",
+          "review": "Awesome movie!"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Shrill",
+      "cover": "https://ik.imagekit.io/uhdf0ebnb/esp5.jpg?tr=w-135,h-185",
+      "rating": 4.2,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Pen15",
+      "cover": "https://ik.imagekit.io/uhdf0ebnb/esp6.jpg?tr=w-135,h-185",
+      "rating": 3.5,
+      "reviews": [
+      ]
+    }
+  ]
